@@ -1,0 +1,26 @@
+
+var domainroot = "designforlife.com.sg";
+var searchaction = [
+  "https://www.google.com/search",
+  "http://www.bing.com/",
+  "http://search.yahoo.com/search"
+];
+var queryfieldname=["p","q","q"];
+
+function switchaction(cur, index)
+{
+  cur.form.action=searchaction[index];
+  document.getElementById("hiddenquery").name = queryfieldname[index];
+}
+
+function dflsitesearch(curobj)
+{
+  var the_form = document.getElementById('dflsearch');
+  for (i = 0; i < the_form.engine.length; i++)
+  {
+    if (the_form.engine[i].checked) {
+      switchaction(the_form, i);
+    }
+  }
+  document.getElementById("hiddenquery").value = "site:"+domainroot+" "+curobj.qfront.value;
+}

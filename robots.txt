@@ -1,0 +1,4 @@
+# robots.txt for http://designforlife.com.sg/
+
+User-agent: *
+Disallow: /family

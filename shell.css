@@ -1,0 +1,340 @@
+body	{
+	margin: 0px;
+	padding: 0px;
+	font-size: 1em;
+	font-family: Verdana, arial, sans-serif;
+	}
+
+.wrapper {
+	width: 995px;
+	float: left;
+	background-color: #55aa55;  
+	border: 2px dashed blue;
+        margin: 0 auto;
+}
+
+.col    {
+	float: left;
+	padding: 5px;
+	padding-bottom: 8px;
+	margin-right: 5px;
+	font-size: 90%;
+	margin-bottom: 5px;
+	}
+
+.title {
+	float: left;
+	font-family: "trebuchet MS", arial, sans-serif;
+        font-weight: bold;
+        font-size: 400%;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	padding-left: 5px;
+	vertical-align: top;
+	background: green url(images/banner_bg.jpg) 100% no-repeat;
+	background-position: left;
+	border-bottom: 10px solid gold;
+	}
+
+.spacer	{
+	float: left;
+	padding: 5px;
+	padding-bottom: 8px;
+	margin: 0;
+	margin-right: 5px;
+	}
+.banner {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	background-color: blue;
+	border-bottom: 10px solid yellow;
+	z-index: 1;
+	}
+.col1span {
+	width: 110px;
+	}
+
+.col-half {
+	width: 47px;
+	 }
+
+.col-half- {
+	width: 48px;
+	}
+
+.col2span {
+	width: 235px;
+	}
+
+.col3span {
+	width: 360px;
+	}
+
+.col4span {
+	width: 485px;
+	}
+
+.col5span {
+	width: 610px;
+	}
+
+.col6span {
+	width: 735px;
+	}
+
+.col7span {
+	width: 860px;
+	}
+
+.col8span {
+	width: 990px;
+	}
+
+.left-m {
+	padding: 0 2em 0 2em;
+	display: block;
+	text-decoration: none;
+	}
+.menu a	{text-decoration: none;}
+.no-right-margin {margin-right: 0px;}
+
+.thick-border {border: 20px solid red;}
+
+.base	{background: #ddeedd;
+	border: 2px dashed blue;
+	}
+
+.morph 	{
+	text-align: center;
+	padding-top: 5px;
+	}
+
+.fig	{ float: left;
+	width: 100%;
+	font-size: 1em;
+	font-style: italic; 
+	padding: 5px;
+	line-height: 1.5em;
+	}
+.blockq 
+	{ padding: 2em;
+	font-family: "trebuchet ms", arial, sans-serif;
+	text-align: justify;
+	line-height: 1.2;
+	font-size: 1em;
+	max-width:700px;
+	margin-left: 2em;
+	margin-right: 4em;
+	}
+.indent	
+	{
+	margin-left: 4em;
+	font-style: italic; 
+	}
+.hanging
+	{
+	margin-left: 2em;
+	text-indent: -2em;
+	width: 90%; 
+	}
+.vanilla
+	{font-style: normal;}
+.survey
+	{
+	width: 98%;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 1em;
+	margin-bottom: 2em;
+	border-color: #000000; 
+	padding: 2px;
+	border-collapse: separate;
+	border-spacing: 0;
+	empty-cells: show;
+	border: solid black;
+	border-width: 7px 0px 7px 0px;
+	table-layout: fixed;
+	}
+.data
+	{
+	width: 98%;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 90%;
+	margin-bottom: 2em;
+	border-collapse: collapse;
+	border-spacing: 1px 0;
+/*	empty-cells: show;
+	border: solid black;
+	border-width: 7px 0px 7px 0px;
+	table-layout: fixed;
+	max-width: 750px;
+	border-width: 1px;  solid #e6a336; */
+	}
+
+table.data thead tr	
+	{ background-color: #ddddff; 
+	}
+table.data thead tr.udda	
+	{ background-color: #dddddd; 
+	}
+table.data tr
+	{ background-color: #ffffff; 
+	}
+table.data tr.udda
+	{ background-color: #ddffdd; 
+	}
+table.survey td.tada
+	{ background-color: #eeffff; 
+	}
+.emph	{font-style: italic; }
+.bolden	{font-weight: bold; }
+.pps 	{
+	text-decoration:none;
+	font-size: .85em;
+	font-weight:bold;
+	color:black;
+	background-color: #55aa55;  
+	}
+
+a.sdfootnotesym,
+a.sdfootnoteanc
+	{ 
+	line-height: 1em; 
+	font-size: 90%;
+	font-weight: bold;
+	vertical-align: top;
+	text-decoration: none;
+	}
+a:link		{color: 0000aa;}
+a:visited	{color: #0000aa;}
+a:hover		{color: green; background: gold;}
+a:active	{color: #aa0000;}
+
+input, button {background: #0a0; border-color: #00aa00;}
+input:hover {background: gold;}
+input:focus {background: gold;}
+
+textarea {background: #0a0; border-color: #00aa00;}
+textarea:hover {background: gold;}
+textarea:focus {background: gold;}
+
+a:hover[class="left-m"] {background: gold;}
+a:focus[class="left-m"] {background: gold;}
+
+a:link[class="pps"] {color:black;}
+a:visited[class="pps"] {color:black;}
+a:hover[class="pps"] {color:#cc0000;}
+a:focus[class="pps"] {color:#00cc00;}
+.endnote
+	{margin-left: 4em;
+	margin-bottom: 2em;
+	}
+
+h1	{	font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+		font-size: 2.5em; 
+	}
+h2	{	font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+		font-size: 1.8em;
+		margin-left: 1em;
+	}
+h3	{	font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+		font-size: 1.5em;
+		margin-left: 1em;
+	}
+h4	{	font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+		font-size: 1.25em; 
+		margin-left: 1em;
+	}
+
+h1 + h2 {margin: 0.5em;}
+h3 + h3 {margin-top: 0.25em; padding-top: 0;}
+
+hr	{
+	color: black;
+	 background-color: black;
+	 height: 1px;
+	 border: 1px;
+	 width: 85%;
+	 margin-bottom: 1em;
+	}
+
+p	{
+	padding: 2px;
+	margin-bottom: 1em;
+	}
+p.td	{padding: 0.5em;}
+
+ul, ol, dl
+	{
+	padding: 5px; 
+	margin: 0; 
+	margin-left: 2em;
+	margin-bottom: 1em;
+	}
+li	{margin-bottom: 1em;}
+button	{background: #0a0;}
+/*
+#hlist {font-family: "Trebuchet MS", Verdana, Arial, sans-serif; font-size: 1.8em;}
+#hlist div {font-family: Verdana, arial, sans-serif; font-size: 0.9em;}
+*/
+
+#list3	{
+	font-family: Trebuchet MS, Verdana, Arial, sans-serif; font-size: 1.8em; font-weight: bold;
+	}
+#list3 div {
+	font-size: .9em; 
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	margin: 0;
+	padding: 0 0 1em 1em;
+	}
+
+/* list 3 styles */
+ol#list3 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; font-size: 1.8em; font-weight: bold;
+	color: #000;
+}
+ol#list3 div {
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 60%;
+	font-weight: normal;
+	color: #000;
+	margin: 0;
+	padding: 0 0 1em 1em;
+}
+tr	{vertical-align: top;}
+
+dt	{font-weight: bolder;}
+
+dd	{margin-bottom: 1em;}
+
+.rt {text-align: right;}
+
+.abbr, acronym, dfn {cursor: help; border-bottom: dashed lime 1px; }
+
+.topborder {border-top: 1px solid;}
+
+.leftborder {border-left: 1px solid;}
+
+.bottomborder {border-bottom: 1px solid;}
+
+.rightborder {border-right: 1px solid;}
+
+.boldfont {font: bold 12px "Trebuchet MS";}
+
+.centralise {text-align: center;}
+
+.alpha	{ list-style-type: lower-alpha; }
+
+p.smalltext {font-size: 85%;}
+
+.transparent
+	{
+	/* for IE */
+	filter: alpha(opacity=60);
+	/* CSS3 standard */
+	opacity: 0.6;
+	/* for Mozilla */
+	-moz-opacity: 0.6;
+	}

@@ -1,0 +1,367 @@
+/*Cascading Style Sheet linked to "Fitting Words" by Michael Graetz, 
+
+created May 25, 2003*/
+
+/* Main Structure */
+
+#bodycontent {
+	height:28cm;
+	width:770px;
+	font:12px/1.2 Trebuchet MS, Arial, Helvetica, sans-serif;
+	background:#ddd;
+	padding:0px;
+	margin:0px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	} 
+  h1	{ 
+	font-size: 40px;
+  	font-weight: bold;
+	font-family: TrebuchetMS, Franklin gothic medium, arial, sans-serif;
+  	margin5pt;
+	margin-bottom: 3pt 
+	color: black;
+	text-align: center;
+	}
+  h2 	{ 
+  	font-size: 30px;
+	font-family: Franklin gothic medium, arial, sans-serif;
+  	margin-top: 4pt; 
+  	margin-bottom: 3pt;
+	color: teal;
+	}
+  h3 	{ 
+  	font-size: 18pt;
+	font-family: Franklin gothic medium, arial, sans-serif;
+  	margin-top: 3pt; 
+  	margin-bottom: 2pt;
+	color: teal;
+	}
+  h4 	{ 
+  	font-size: 14pt;
+	font-family: Franklin gothic medium, arial, sans-serif;
+  	margin-top: 2pt; 
+  	margin-bottom: 1pt;
+	color: teal;
+	}
+  h5 	{ 
+  	font-size: 12px;
+	font-family: Franklin gothic medium, arial, sans-serif;
+  	margin-top: 2em; 
+  	margin-bottom: 1em;
+	color: teal;
+	}
+
+/* img	{border: 0} */
+
+p.subtitle {text-align: center;}
+
+a:link.heading-link,
+a:visited.heading-link {
+		text-decoration: none;
+		color: white;
+		background: black; 
+		border: 5px solid #ffffff;
+		}
+a:hover.heading-link {
+		text-decoration: none;
+		color: white;
+		background: blue; 
+		border: 5px solid #000000;
+		}
+
+/*.cladogram {  
+  	color: black; 
+  	background: fixed url(images/clade2.gif) no-repeat center center;
+  	margin: 0px; 
+  	font-family: Trebuchet MS, arial, sans-serif; 
+  	font-size: 100%;
+  	line-height: 200%;
+	}	
+*/
+.workaround {
+	border-bottom: 20pt solid #cc3333;
+	width: 75%; padding-bottom: 10pt;
+	}
+		H1.workaround {border-bottom-width: 3pt;
+			border-style: solid; border-color: #cc3333;
+	    width: 100%; font-size: 1.8em;
+			font-weight: bold;}
+		H1.workaround {border-bottom: 3pt solid #cc3333; 
+ 			border-top: 0 solid #f0f0f0; 
+ 			border-left: 0 solid #f0f0f0; 
+ 			border-right: 0 solid #f0f0f0; }
+.yellowbar {
+	color:yellow;
+	size:8px;
+	width:95%;
+	}
+   #banner {
+	text-align: center;
+	}
+   #bannermain {
+	position: absolute;
+	top: 33px;
+	left:210px;
+	 font-family: Papyrus, arial, sans-serif;
+	 color: #ee0000;
+	font-size: 60px;
+	overflow: visible;
+	min-width:500px;
+	 !important;
+}
+   #bannershadow {
+	position: absolute;
+	top: 35px;
+	left:212px;
+	 font-family: Papyrus, arial, sans-serif;
+ 	color: #000000 ;
+	font-size: 60px ;
+	overflow: visible;
+	min-width:500px;
+	 !important;
+ 	}
+  #bannershadow2 {
+	position: absolute;
+	top: 37px;
+	left:214px;
+	font-family: Papyrus, arial, sans-serif;	
+	color: #00ee00 ;
+	font-size: 60px;
+	overflow: visible;
+	min-width:500px;
+	 !important;
+	}
+#banner_new {
+	position: absolute;
+	top: 26px;
+	left:175px;
+	left-margin: 140px;
+	font-family: trebuchetMS, arial, sans-serif;	
+	font-weight: bold;
+	font-size: 66px;
+	background: yellow;
+	overflow: visible;
+	min-width:500px;
+	 !important;
+	}
+#morph 	{
+	float:left; 
+	margin:5px; 
+	text-align: center;
+	}
+   ul 	{list-style-image: url(images/bullet.gif);}
+
+/*----------------------------------------------------------------------------------------*/
+
+
+	.contents-item a:link 	{
+		text-decoration:none;
+		font-weight:bold;
+		color:white;
+		}
+	.contents-item a:visited  
+		{
+		text-decoration:none;
+		font-weight:bold;
+		color:white;
+		}
+	.contents-item a:hover	{
+		text-decoration:underline;
+		font-weight:bold;
+		color:#cc0000;
+		background: #ffa54f;
+		}
+	.contents-item a:active 	{
+		text-decoration:none;
+		font-weight:bold;
+		color:#cc0000;
+		}
+	.brown_bg
+		{
+		font-weight: bold;
+		background: #ffa54f;
+		}
+	.pps a:link 	{
+		text-decoration:none;
+		font-weight:bold;
+		color:black;
+		}
+	.pps a:visited  
+		{
+		text-decoration:none;
+		font-weight:bold;
+		color:black;
+		}
+	.pps a:hover	{
+		text-decoration:underline;
+		font-weight:bold;
+		color:#cc0000;
+		background: #ffa54f;
+		}
+	.pps a:active 	{
+		text-decoration:none;
+		font-weight:bold;
+		color:#00cc00;
+		}
+/*	.normal-link { */
+		
+	.normal-link a:link 	{
+		text-decoration:none;
+		font-weight:bold;
+		color:black;
+		}
+	.normal-link a:visited  
+		{
+		text-decoration:none;
+		font-weight:bold;
+		color:black;
+		}
+	.normal-link a:hover	{
+		text-decoration: none;
+		border: 1px dotted;
+		font-weight:bold;
+		color:#0000cc;
+		background: #ffa54f;
+		}
+	.normal-link a:active 	{
+		text-decoration:none;
+		font-weight:bold;
+		color:#0000ff;
+		}
+	.image-caption {
+		background:#ffa54f;
+		width:660px;
+		text-align:center;
+		margin-left:10%;
+		}
+	.gallery-image {
+		margin-left:10%;
+		}
+	.contents-title 	{
+		color: yellow;
+		background: black;
+		font-family: Franklin gothic medium, arial, sans-serif;
+		font-size: 16pt;
+		font-weight: bold;
+		text-align:center;
+		width:169px;
+		margin:2px 0px 0px 0px;
+		padding: 7px;
+		}
+	.contents-item {
+		font-family: MS Trebuchet, Verdana, Sans-serif;
+		width:165px;
+		/* background: #00aa00; */
+		font-size: 10pt;
+		text-align:left;
+		margin:0px;
+		padding: 7px;
+		border:2px solid #000;
+		border-top:0;
+		}
+	.contents-icon {
+		text-decoration: none; 
+		border: 0;
+		color: #00aa00;
+		}
+	a:link.contents-icon,
+	a:visited.contents-icon,
+	a:hover.contents-icon
+		 {border: 0; }
+	.box	{
+		margin:0px;
+		padding: 7px;
+		border:2px solid #000;
+		}
+	.subtitle 	{
+		font-size:14px;
+		margin:0px 30px 10px 30px;
+		padding: 2px;
+		}
+	ol	{
+		margin-right:40px;
+		}
+	li	 {
+		margin-bottom:10px;
+		}
+	#wrapper {
+		width: 880px; 
+		border: 0px dashed #000;
+		background:#f8f8ff;
+		height:100%;
+		}  
+	#topcontent {
+		float: left;
+		background:#0000ff;
+		border: 12px solid #000;
+		width:848px;
+		margin:0;
+		padding:4px;
+		height:100px;
+		}
+	#leftcontent {
+		float: left;
+		width: 183px;
+		height: 800px;
+		margin: 0;
+		padding: 4px;
+		background: #00aa00;
+		border-left: 12px solid #000000;
+		}
+	#middlecontent {
+		float: left;
+		width: 500px;
+		height: 800px;
+		margin: 0;
+		padding: 4px;
+		background: #ffa54f;
+		border-right: 12px solid #000000;
+		border-left: 12px solid #000000;
+		overflow: auto;
+		}
+	#cladogram {
+		float: left;
+		width: 500px;
+		height: 800px;
+		margin: 0;
+		padding:4px;
+		background: url(images/clade2.gif) no-repeat center bottom #ffa54f;
+		border-right: 12px solid #000000;
+		border-left: 12px solid #000000;
+		overflow: auto;
+		}
+	#rightcontent {
+		float:left;
+		margin: 0;
+		height: 800px;
+		width: 125px;
+ 		background: url(images/clade2.gif) no-repeat center #ff0000;
+		border-right: 12px solid #000000;
+		padding: 4px;
+	 !important;
+		}
+	#footer	{
+		float: left;
+		background: url(images/clade2.gif) no-repeat center #ffff00;
+		border: 12px solid #000000;
+		width: 848px;
+		height: 100px;
+		margin: 0;
+		padding: 4px;
+	 !important;
+		}
+	#pad {
+		float:left;
+		width:10%;
+		visibility:none;
+		}
+	pre	 {
+		margin:0px 30px 10px 30px;
+		}
+.centralise {text-align: center;}
+	p.rightcontent {
+		font-size:10px;
+		padding:10%;
+		border:0px
+		}
